@@ -1,0 +1,16 @@
+.test-letter {
+	font-size: 15px;
+	line-height: 19px;
+}
+
+.test-class-correct {
+	color: #558b2f;
+}
+
+.test-class-incorrect {
+	color: #bf360c;
+}
+
+.test-class-not-attempted {
+	color: #F9F9F9;
+}

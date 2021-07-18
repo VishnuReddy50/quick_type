@@ -1,1 +1,1 @@
-#QuickType
+# QuickType

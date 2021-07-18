@@ -1,6 +1,6 @@
 import React from 'react';
 import './Landing.css';
-import flash from './../../Assets/Hero.png';
+import Flash from './../../Assets/Flash.png';
 import Typewriter from 'typewriter-effect';
 
 function Landing() {
@@ -25,7 +25,7 @@ function Landing() {
 				<img
 					data-aos="fade-left"
 					className="flash-image"
-					src={flash}
+					src={Flash}
 					alt="hero"
 				/>
 			</div>

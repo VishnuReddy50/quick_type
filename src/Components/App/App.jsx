@@ -54,7 +54,7 @@ class App extends React.Component {
 				const timeSpent = totalTime - this.state.timeRemaining;
 				const wpm =
 					timeSpent > 0
-						? (this.state.words / timeSpent)
+						? (this.state.words / timeSpent) * totalTime
 						: 0;
 				this.setState({
 					timeRemaining: this.state.timeRemaining - 1,
